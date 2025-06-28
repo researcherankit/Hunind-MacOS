@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE1B67D529A8C46D003CBA88 /* HunindApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B67D429A8C46D003CBA88 /* HunindApp.swift */; };
+		DE1B67D729A8C46D003CBA88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B67D629A8C46D003CBA88 /* ContentView.swift */; };
+		DE1B67D929A8C46E003CBA88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1B67D829A8C46E003CBA88 /* Assets.xcassets */; };
+		DE1B67DD29A8C46E003CBA88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1B67DC29A8C46E003CBA88 /* Preview Assets.xcassets */; };
+		DE1B67E729A8C46E003CBA88 /* HunindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B67E629A8C46E003CBA88 /* HunindTests.swift */; };
+		DE1B67F129A8C46E003CBA88 /* HunindUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B67F029A8C46E003CBA88 /* HunindUITests.swift */; };
+		DE1B67F329A8C46E003CBA88 /* HunindUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B67F229A8C46E003CBA88 /* HunindUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE1B67E329A8C46E003CBA88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE1B67C929A8C46D003CBA88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE1B67D029A8C46D003CBA88;
+			remoteInfo = Hunind;
+		};
+		DE1B67ED29A8C46E003CBA88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE1B67C929A8C46D003CBA88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE1B67D029A8C46D003CBA88;
+			remoteInfo = Hunind;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE1B67D129A8C46D003CBA88 /* Hunind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hunind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1B67D429A8C46D003CBA88 /* HunindApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HunindApp.swift; sourceTree = "<group>"; };
+		DE1B67D629A8C46D003CBA88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE1B67D829A8C46E003CBA88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE1B67DA29A8C46E003CBA88 /* Hunind.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hunind.entitlements; sourceTree = "<group>"; };
+		DE1B67DC29A8C46E003CBA88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE1B67E229A8C46E003CBA88 /* HunindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HunindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1B67E629A8C46E003CBA88 /* HunindTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HunindTests.swift; sourceTree = "<group>"; };
+		DE1B67EC29A8C46E003CBA88 /* HunindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HunindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1B67F029A8C46E003CBA88 /* HunindUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HunindUITests.swift; sourceTree = "<group>"; };
+		DE1B67F229A8C46E003CBA88 /* HunindUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HunindUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE1B67CE29A8C46D003CBA88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1B67DF29A8C46E003CBA88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1B67E929A8C46E003CBA88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE1B67C829A8C46D003CBA88 = {
+			isa = PBXGroup;
+			children = (
+				DE1B67D329A8C46D003CBA88 /* Hunind */,
+				DE1B67E529A8C46E003CBA88 /* HunindTests */,
+				DE1B67EF29A8C46E003CBA88 /* HunindUITests */,
+				DE1B67D229A8C46D003CBA88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE1B67D229A8C46D003CBA88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE1B67D129A8C46D003CBA88 /* Hunind.app */,
+				DE1B67E229A8C46E003CBA88 /* HunindTests.xctest */,
+				DE1B67EC29A8C46E003CBA88 /* HunindUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE1B67D329A8C46D003CBA88 /* Hunind */ = {
+			isa = PBXGroup;
+			children = (
+				DE1B67D429A8C46D003CBA88 /* HunindApp.swift */,
+				DE1B67D629A8C46D003CBA88 /* ContentView.swift */,
+				DE1B67D829A8C46E003CBA88 /* Assets.xcassets */,
+				DE1B67DA29A8C46E003CBA88 /* Hunind.entitlements */,
+				DE1B67DB29A8C46E003CBA88 /* Preview Content */,
+			);
+			path = Hunind;
+			sourceTree = "<group>";
+		};
+		DE1B67DB29A8C46E003CBA88 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DE1B67DC29A8C46E003CBA88 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE1B67E529A8C46E003CBA88 /* HunindTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE1B67E629A8C46E003CBA88 /* HunindTests.swift */,
+			);
+			path = HunindTests;
+			sourceTree = "<group>";
+		};
+		DE1B67EF29A8C46E003CBA88 /* HunindUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE1B67F029A8C46E003CBA88 /* HunindUITests.swift */,
+				DE1B67F229A8C46E003CBA88 /* HunindUITestsLaunchTests.swift */,
+			);
+			path = HunindUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE1B67D029A8C46D003CBA88 /* Hunind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE1B67F629A8C46E003CBA88 /* Build configuration list for PBXNativeTarget "Hunind" */;
+			buildPhases = (
+				DE1B67CD29A8C46D003CBA88 /* Sources */,
+				DE1B67CE29A8C46D003CBA88 /* Frameworks */,
+				DE1B67CF29A8C46D003CBA88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hunind;
+			productName = Hunind;
+			productReference = DE1B67D129A8C46D003CBA88 /* Hunind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE1B67E129A8C46E003CBA88 /* HunindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE1B67F929A8C46E003CBA88 /* Build configuration list for PBXNativeTarget "HunindTests" */;
+			buildPhases = (
+				DE1B67DE29A8C46E003CBA88 /* Sources */,
+				DE1B67DF29A8C46E003CBA88 /* Frameworks */,
+				DE1B67E029A8C46E003CBA88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE1B67E429A8C46E003CBA88 /* PBXTargetDependency */,
+			);
+			name = HunindTests;
+			productName = HunindTests;
+			productReference = DE1B67E229A8C46E003CBA88 /* HunindTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE1B67EB29A8C46E003CBA88 /* HunindUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE1B67FC29A8C46E003CBA88 /* Build configuration list for PBXNativeTarget "HunindUITests" */;
+			buildPhases = (
+				DE1B67E829A8C46E003CBA88 /* Sources */,
+				DE1B67E929A8C46E003CBA88 /* Frameworks */,
+				DE1B67EA29A8C46E003CBA88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE1B67EE29A8C46E003CBA88 /* PBXTargetDependency */,
+			);
+			name = HunindUITests;
+			productName = HunindUITests;
+			productReference = DE1B67EC29A8C46E003CBA88 /* HunindUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE1B67C929A8C46D003CBA88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					DE1B67D029A8C46D003CBA88 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					DE1B67E129A8C46E003CBA88 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = DE1B67D029A8C46D003CBA88;
+					};
+					DE1B67EB29A8C46E003CBA88 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = DE1B67D029A8C46D003CBA88;
+					};
+				};
+			};
+			buildConfigurationList = DE1B67CC29A8C46D003CBA88 /* Build configuration list for PBXProject "Hunind" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE1B67C829A8C46D003CBA88;
+			productRefGroup = DE1B67D229A8C46D003CBA88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE1B67D029A8C46D003CBA88 /* Hunind */,
+				DE1B67E129A8C46E003CBA88 /* HunindTests */,
+				DE1B67EB29A8C46E003CBA88 /* HunindUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE1B67CF29A8C46D003CBA88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1B67DD29A8C46E003CBA88 /* Preview Assets.xcassets in Resources */,
+				DE1B67D929A8C46E003CBA88 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1B67E029A8C46E003CBA88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1B67EA29A8C46E003CBA88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE1B67CD29A8C46D003CBA88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1B67D729A8C46D003CBA88 /* ContentView.swift in Sources */,
+				DE1B67D529A8C46D003CBA88 /* HunindApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1B67DE29A8C46E003CBA88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1B67E729A8C46E003CBA88 /* HunindTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1B67E829A8C46E003CBA88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1B67F329A8C46E003CBA88 /* HunindUITestsLaunchTests.swift in Sources */,
+				DE1B67F129A8C46E003CBA88 /* HunindUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE1B67E429A8C46E003CBA88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE1B67D029A8C46D003CBA88 /* Hunind */;
+			targetProxy = DE1B67E329A8C46E003CBA88 /* PBXContainerItemProxy */;
+		};
+		DE1B67EE29A8C46E003CBA88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE1B67D029A8C46D003CBA88 /* Hunind */;
+			targetProxy = DE1B67ED29A8C46E003CBA88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DE1B67F429A8C46E003CBA88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE1B67F529A8C46E003CBA88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DE1B67F729A8C46E003CBA88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Hunind/Hunind.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hunind/Preview Content\"";
+				DEVELOPMENT_TEAM = DPW6RLZ3RW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ankit.Hunind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE1B67F829A8C46E003CBA88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Hunind/Hunind.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hunind/Preview Content\"";
+				DEVELOPMENT_TEAM = DPW6RLZ3RW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ankit.Hunind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE1B67FA29A8C46E003CBA88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DPW6RLZ3RW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ankit.HunindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hunind.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hunind";
+			};
+			name = Debug;
+		};
+		DE1B67FB29A8C46E003CBA88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DPW6RLZ3RW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ankit.HunindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hunind.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hunind";
+			};
+			name = Release;
+		};
+		DE1B67FD29A8C46E003CBA88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DPW6RLZ3RW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ankit.HunindUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hunind;
+			};
+			name = Debug;
+		};
+		DE1B67FE29A8C46E003CBA88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DPW6RLZ3RW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ankit.HunindUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hunind;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE1B67CC29A8C46D003CBA88 /* Build configuration list for PBXProject "Hunind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1B67F429A8C46E003CBA88 /* Debug */,
+				DE1B67F529A8C46E003CBA88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE1B67F629A8C46E003CBA88 /* Build configuration list for PBXNativeTarget "Hunind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1B67F729A8C46E003CBA88 /* Debug */,
+				DE1B67F829A8C46E003CBA88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE1B67F929A8C46E003CBA88 /* Build configuration list for PBXNativeTarget "HunindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1B67FA29A8C46E003CBA88 /* Debug */,
+				DE1B67FB29A8C46E003CBA88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE1B67FC29A8C46E003CBA88 /* Build configuration list for PBXNativeTarget "HunindUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1B67FD29A8C46E003CBA88 /* Debug */,
+				DE1B67FE29A8C46E003CBA88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE1B67C929A8C46D003CBA88 /* Project object */;
+}
